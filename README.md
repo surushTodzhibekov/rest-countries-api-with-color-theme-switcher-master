@@ -45,8 +45,8 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/surushTodzhibekov/rest-countries-api-with-color-theme-switcher-master)
+- Live Site URL: [Add live site URL here](https://effervescent-marzipan-535b7f.netlify.app/)
 
 ## My process
 
