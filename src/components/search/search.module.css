@@ -1,0 +1,27 @@
+.input {
+  padding: 18px 64px;
+  border: 0;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.08);
+  background: url("../../assets/search.svg") no-repeat 24px;
+}
+
+.inputLight {
+  background-color: var(--white);
+}
+
+.inputDark {
+  background-color: var(--article-color);
+  color: var(--text-color);
+}
+
+.input::placeholder {
+  color: var(--light-mode-input);
+}
+
+/* @media (min-width: 900px) {
+  .input {
+    width: 40%;
+  }
+} */
