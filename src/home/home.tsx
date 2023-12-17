@@ -1,11 +1,4 @@
-import React, {
-  ChangeEvent,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
-import data from "../data/data.json";
+import { ChangeEvent, useContext, useEffect, useMemo, useState } from "react";
 import styles from "./home-style.module.css";
 import Card from "../components/card/card";
 import { CountryType } from "../type";

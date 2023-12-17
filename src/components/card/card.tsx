@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import styles from "./card.module.css";
 import { CountryType } from "../../type";
 import { DarkModeContext } from "../../context";
