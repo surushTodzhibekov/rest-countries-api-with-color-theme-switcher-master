@@ -1,17 +1,21 @@
 {
+  "homepage": "https://surushtodzhibekov.github.io/rest-countries-api-with-color-theme-switcher-master/",
   "name": "rest-countries-api-with-color-theme-switcher-master",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh": "^2.8.9",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
+    "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
