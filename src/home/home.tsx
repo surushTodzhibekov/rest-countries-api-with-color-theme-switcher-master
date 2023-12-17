@@ -96,7 +96,12 @@ function Home() {
           <Search search={keyword} onChange={changeKeyword} />
         </div>
         <div>
-          <select name="region" id="region-select" onChange={changeRegion}>
+          <select
+            className={context?.darkMode ? styles.selectDark : styles.select}
+            name="region"
+            id="region-select"
+            onChange={changeRegion}
+          >
             <option value="">Filter by region</option>
             {[...uniqueRegions].map((region) => (
               <option
